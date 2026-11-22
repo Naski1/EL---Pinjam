@@ -1,0 +1,14 @@
+export { default as LoginPage } from './LoginPage';
+export { default as DashboardPage } from './DashboardPage';
+export { default as AsramaPage } from './AsramaPage';
+export { default as AddAsramaPage } from './AddAsramaPage';
+export { default as AsramaDetailPage } from './AsramaDetailPage';
+export { default as KamarPage } from './KamarPage';
+export { default as CategoryPage } from './CategoryPage';
+export { default as SantriPage } from './SantriPage';
+export { default as AddSantriPage } from './AddSantriPage';
+export { default as BookPage } from './BookPage';
+export { default as AddBookPage } from './AddBookPage';
+export { default as PeminjamanPage } from './PeminjamanPage';
+export { default as SettingsPage } from './SettingsPage';
+export { default as ReportsPage } from './ReportsPage';

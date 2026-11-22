@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <defs>
+    <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#10b981"/>
+      <stop offset="100%" style="stop-color:#059669"/>
+    </linearGradient>
+    <linearGradient id="grad2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#34d399"/>
+      <stop offset="100%" style="stop-color:#10b981"/>
+    </linearGradient>
+  </defs>
+  
+  <!-- Background circle -->
+  <circle cx="256" cy="256" r="240" fill="url(#grad1)"/>
+  
+  <!-- Crescent moon -->
+  <path d="M256 60 C210 60, 170 100, 170 146 C170 192, 210 232, 256 232 C220 232, 195 192, 195 146 C195 100, 220 60, 256 60" fill="#fcd34d"/>
+  
+  <!-- Star -->
+  <polygon points="300,90 305,110 325,110 310,122 315,142 300,130 285,142 290,122 275,110 295,110" fill="#fcd34d"/>
+  
+  <!-- Open book base -->
+  <path d="M100 350 Q256 300 412 350 L412 420 Q256 370 100 420 Z" fill="url(#grad2)" opacity="0.9"/>
+  <path d="M100 350 Q256 300 256 270 L256 370 Q256 320 100 370 Z" fill="#34d399"/>
+  <path d="M412 350 Q256 300 256 270 L256 370 Q256 320 412 370 Z" fill="#6ee7b7"/>
+  
+  <!-- Smartphone in center -->
+  <rect x="195" y="170" width="122" height="175" rx="15" fill="white"/>
+  <rect x="205" y="185" width="102" height="140" rx="10" fill="#d1fae5"/>
+  
+  <!-- Bookmark icon on phone -->
+  <path d="M230 200 L230 275 L256 255 L282 275 L282 200 Z" fill="#10b981"/>
+  
+  <!-- Small dome decorations -->
+  <ellipse cx="130" cy="280" rx="40" ry="30" fill="#34d399" opacity="0.7"/>
+  <line x1="130" y1="250" x2="130" y2="220" stroke="#34d399" stroke-width="10"/>
+  <ellipse cx="382" cy="280" rx="40" ry="30" fill="#34d399" opacity="0.7"/>
+  <line x1="382" y1="250" x2="382" y2="220" stroke="#34d399" stroke-width="10"/>
+</svg>
